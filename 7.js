@@ -1,4 +1,4 @@
-function erathosfen(n) {
+function erathosphen(n) {
 	const arr = [];
 	for (let i = 2; i <= n; i++) {
 		arr[i] = true;
