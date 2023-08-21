@@ -1,31 +1,31 @@
-// const tree = {
-// 	val: 4,
-// 	left: {
-// 		val: 3,
-// 		left: {
-// 			val: 934,
-// 			left: null,
-// 			right: null,
-// 		},
-// 		right: {
-// 			val: 29,
-// 			left: {
-// 				val: 23,
-// 				left: {
-// 					val: 10,
-// 					left: null,
-// 					right: null,
-// 				},
-// 				right: null,
-// 			},
-// 		},
-// 	},
-// 	right: {
-// 		val: 23,
-// 		left: null,
-// 		right: null,
-// 	},
-// };
+const tree = {
+	val: 4,
+	left: {
+		val: 3,
+		left: {
+			val: 934,
+			left: null,
+			right: null,
+		},
+		right: {
+			val: 29,
+			left: {
+				val: 23,
+				left: {
+					val: 10,
+					left: null,
+					right: null,
+				},
+				right: null,
+			},
+		},
+	},
+	right: {
+		val: 23,
+		left: null,
+		right: null,
+	},
+};
 
 function dfs(tree) {
 	const arr = [];
@@ -42,4 +42,4 @@ function dfs(tree) {
 	return arr;
 }
 
-// console.log(dfs(tree));
+console.log(dfs(tree));
