@@ -11,3 +11,7 @@ function bubbleSort(arr) {
 	}
 	return newArr;
 }
+
+const arr = [3, 5, 2243, 24, 0, -2, 234, 9393];
+
+console.log(bubbleSort(arr));
