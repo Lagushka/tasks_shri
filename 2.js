@@ -17,3 +17,8 @@ function selectionSort(arr) {
 	}
 	return newArr;
 }
+
+const arr = [3, 5, 2243, 24, 0, -2, 234, 9393];
+const arr2 = [-2, 45, 2034, -288, -295, 92185, 292, -248];
+
+console.log(selectionSort(arr2));
