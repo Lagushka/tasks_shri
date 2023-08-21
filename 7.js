@@ -7,7 +7,7 @@ function erathosphen(n) {
 	let step = 2;
 
 	while (step <= n) {
-		for (let i = step * 2; i <= n; i += step) {
+		for (let i = step * step; i <= n; i += step) {
 			arr[i] = false;
 		}
 
@@ -15,6 +15,7 @@ function erathosphen(n) {
 		while (i <= n && !arr[i]) {
 			i++;
 		}
+
 		step = i;
 	}
 
@@ -29,4 +30,4 @@ function erathosphen(n) {
 	return result;
 }
 
-// console.log(erathosfen(400));
+// console.log(erathosphen(50));
